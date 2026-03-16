@@ -21,17 +21,37 @@ A responsive job portal built using React.js that allows users to browse, search
 * REST APIs
 * JWT Authentication
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-src/
-components/
-Login/
-Home/
-Jobs/
-JobItemDetails/
-Header/
-ProtectedRoute/
-context/
+Jobby-App
+│
+├── public
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+│
+├── src
+│   ├── App.js
+│   ├── index.js
+│   │
+│   └── components
+│       ├── AboutJobItem
+│       ├── AllJobs
+│       ├── FiltersGroup
+│       ├── Header
+│       ├── Home
+│       ├── JobCard
+│       ├── JobItemDetails
+│       ├── Jobs
+│       ├── Login
+│       ├── NotFound
+│       ├── ProfileDetails
+│       ├── ProtectedRoute
+│       ├── SimilarJobItem
+│       └── SkillsCard
+│
+└── README.md
+
 
 ## 🔑 Login Credentials (for demo)
 
